@@ -1,0 +1,61 @@
+body {
+    background-color: #232323;
+    color: #999;
+
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.sei_icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+//    margin-top: 0%;
+
+    height: auto;
+    width: auto;
+//    max-width: 300px;
+}
+
+
+.sei_name {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.sei_name_line {
+    margin: auto;
+    border-bottom: 1px solid #999;
+    padding-bottom: 9px;
+    width: 60px;
+}
+
+
+.sei_center_links {
+//    height: 13vh;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sei_links {
+//    transition: all 0.3s linear;
+    background-color: #333;
+    height: 100px;
+    width: 100px;
+    border-radius: 1px;
+    margin: 5px;
+
+    color: #777;
+    line-height: 100px;
+    text-align: center;
+//    object-fit: cover;
+}
+
+.sei_links:hover {
+//    transform: scale(1.1);
+    color: #333;
+    background-color: #777;
+}
