@@ -10,11 +10,9 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-//    margin-top: 0%;
 
     height: auto;
     width: auto;
-//    max-width: 300px;
 }
 
 
@@ -33,7 +31,6 @@ body {
 
 
 .sei_center_links {
-//    height: 13vh;
     height: 120px;
     display: flex;
     justify-content: center;
@@ -41,7 +38,6 @@ body {
 }
 
 .sei_links {
-//    transition: all 0.3s linear;
     background-color: #333;
     height: 100px;
     width: 100px;
@@ -55,7 +51,6 @@ body {
 }
 
 .sei_links:hover {
-//    transform: scale(1.1);
     color: #333;
     background-color: #777;
 }
