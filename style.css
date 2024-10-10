@@ -1,55 +1,71 @@
 body {
     background-color: #232323;
-    color: #999;
+}
+
+
+
+.box {
+    width: 256px;
+/*     height: 256px; */
+
+    border-radius: 16px;
+    padding: 32px; /* increase width */
+
+    position: absolute; /* center it */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #191919;
+    color: #F3F3F3;
 
     text-align: center;
-    letter-spacing: 1px;
+    font-family: "Rodin Light", sans-serif;
+
 }
 
-.sei_icon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.icon {
+    width: 160px;
+    height: 160px;
 
-    height: auto;
-    width: auto;
-}
-
-
-.sei_name {
-    text-align: center;
-    font-size: 30px;
-    letter-spacing: 5px;
-}
-
-.sei_name_line {
-    margin: auto;
-    border-bottom: 1px solid #999;
-    padding-bottom: 9px;
-    width: 60px;
+    border-radius: 50%;
+/*     display: block; */
+/*     margin: auto; */
 }
 
 
-.sei_center_links {
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.socials {
 }
 
-.sei_links {
-    background-color: #333;
-    height: 100px;
-    width: 100px;
-    border-radius: 1px;
-    margin: 5px;
-
-    color: #777;
-    line-height: 100px;
-    text-align: center;
+.socials a {
+    text-decoration: none; /* remove underline from links */
+    fill: #808080;
 }
 
-.sei_links:hover {
-    color: #333;
-    background-color: #777;
+/*.socials a:hover {
+    fill: #F3F3F3;
+}*/
+
+.socials a.github:hover     { fill: #F3F3F3; }
+.socials a.twitter:hover    { fill: #1DA1F2; }
+.socials a.youtube:hover    { fill: #FF0000; }
+.socials a.instagram:hover  { fill: #f26796; } /* average colour */
+.socials a.open3dlab:hover  { fill: #4056ad; }
+
+
+
+
+.navigation {
+    padding: 16px;
+    font-weight: lighter;
+}
+
+.navigation a {
+    text-decoration: none; /* remove underline from links */
+    margin-right: 8px;
+}
+
+.navigation a:last-child {
+    margin-right: 0; /* remove on last */
 }
